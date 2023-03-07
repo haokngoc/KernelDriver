@@ -1,0 +1,1 @@
+cmd_/home/hao/Documents/kernel_driver/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/hao/Documents/kernel_driver/hello.ko /home/hao/Documents/kernel_driver/hello.o /home/hao/Documents/kernel_driver/hello.mod.o;  true
